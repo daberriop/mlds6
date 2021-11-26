@@ -2,21 +2,27 @@
 
 ## Business background
 
-* Who is the client, what business domain the client is in.
-* What business problems are we trying to address?
+* Cliente: Empresas panameñas de alimentos
+* Dominio: Consumo masivo
+* Problema del negocio: Identificar la percepcion de los clientes sobre las marcas asociadas a la compañia en tweeter  
 
 ## Scope
-* What data science solutions are we trying to build?
-* What will we do?
-* How is it going to be consumed by the customer?
+* Solucion de datascience
+* Modelo no supervisado para preparar un set de datos etiquetado que permita entrenar un modelo para clasificar tweets de acuerdo a categorias definidas por el cliente
+
+* Que se va a hacer
+* Adquirir datos de Twetter y aplicar analisis de sentimiento y modelos no supervisados para extraer mas informacion de los datos
+* generar una base de datos etiquetada y almacenarla para futura generación de un modelo de clasificación
+* definir visualizacion que permita generar base de datos con etiquetas y obtener informacion de los datos agrupados
+
+* Como se va a consumir por el cleinte
+* Dasboard notebook aplicacion api
 
 ## Personnel
 * Who are on this project:
-	* Microsoft:
-		* Project lead
-		* PM
-		* Data scientist(s)
-		* Account manager
+	* Ingenieros de datos
+		* Julio Bolaños (julioandres.bp@gmail.com) 
+		* Jonatan Parra ()
 	* Client:
 		* Data administrator
 		* Business contact
