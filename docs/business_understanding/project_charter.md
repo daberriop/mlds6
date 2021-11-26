@@ -11,21 +11,26 @@
 * Modelo no supervisado para preparar un set de datos etiquetado que permita entrenar un modelo para clasificar tweets de acuerdo a categorias definidas por el cliente
 
 * Que se va a hacer
-* Adquirir datos de Twetter y aplicar analisis de sentimiento y modelos no supervisados para extraer mas informacion de los datos
+* Adquirir datos de Twetter y aplicar análisis de sentimiento y modelos no supervisados para extraer mas informacion de los datos que nos permita agilizar el proceso de etiquetamiento
 * generar una base de datos etiquetada y almacenarla para futura generación de un modelo de clasificación
-* definir visualizacion que permita generar base de datos con etiquetas y obtener informacion de los datos agrupados
+* definir visualizaciones para agilizar la exploracion y etiquetamiento de datos
 
-* Como se va a consumir por el cleinte
+* Como se va a consumir por el cliente
 * Dasboard notebook aplicacion api
 
 ## Personnel
 * Who are on this project:
 	* Ingenieros de datos
 		* Julio Bolaños (julioandres.bp@gmail.com) 
-		* Jonatan Parra ()
+		* Jonatan Parra 
+	* Cientificos de datos
+		* Simon Jaramillo
+		* Cristian Mendez
+	* Arquitecto de datos
+		* Melissa de la Pava  	  
 	* Client:
-		* Data administrator
-		* Business contact
+		* Simon Jaramillo
+		* Juan Lara
 	
 ## Metrics
 * What are the qualitative objectives? (e.g. reduce user churn)
