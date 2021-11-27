@@ -22,10 +22,10 @@
 * Who are on this project:
 	* Ingenieros de datos
 		* Julio Bolaños (julioandres.bp@gmail.com) 
-		* Jonatan Parra 
+		* Jonatan Parra (japarrat@unal.edu.co)
 	* Cientificos de datos
-		* Simon Jaramillo
-		* Cristian Mendez
+		* Simon Jaramillo (sijaramillogo94@gmail.com)
+		* Cristian Mendez (cristianr.mendez@gmail.com)
 	* Arquitecto de datos
 		* Melissa de la Pava  	  
 	* Client:
@@ -34,10 +34,15 @@
 	
 ## Metrics
 * What are the qualitative objectives? (e.g. reduce user churn)
+	* Mejorar la escucha digital de la empresa referente a las marcas
 * What is a quantifiable metric  (e.g. reduce the fraction of users with 4-week inactivity)
+	* Aumentar los tweets clasificados con escucha digital para la marca 
 * Quantify what improvement in the values of the metrics are useful for the customer scenario (e.g. reduce the  fraction of users with 4-week inactivity by 20%) 
+	* Clasificar 1000 tweets referentes a la marca en categorias	 
 * What is the baseline (current) value of the metric? (e.g. current fraction of users with 4-week inactivity = 60%)
+	* 0 % 	 
 * How will we measure the metric? (e.g. A/B test on a specified subset for a specified period; or comparison of performance after implementation to baseline)
+	* 	 
 
 ## Plan
 * Phases (milestones), timeline, short description of what we'll do in each phase.
