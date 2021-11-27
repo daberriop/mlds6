@@ -45,6 +45,7 @@
 
 ## Plan
 * Phases (milestones), timeline, short description of what we'll do in each phase.
+* https://docs.google.com/spreadsheets/d/1hAFUNcaKeDpTUoin8-wbDFWf14Aw9dqJai-nJnnUVd8/edit?usp=sharing
 
 
 ## Architecture
