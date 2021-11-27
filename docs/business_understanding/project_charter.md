@@ -8,15 +8,14 @@
 
 ## Scope
 * Solucion de datascience
-* Modelo no supervisado para preparar un set de datos etiquetado que permita entrenar un modelo para clasificar tweets de acuerdo a categorias definidas por el cliente
+* Modelo no supervisado para preparar un set de datos etiquetado que se alamacenará en una base de datos 
 
 * Que se va a hacer
-* Adquirir datos de Twetter y aplicar análisis de sentimiento y modelos no supervisados para extraer mas informacion de los datos que nos permita agilizar el proceso de etiquetamiento
-* generar una base de datos etiquetada y almacenarla para futura generación de un modelo de clasificación
-* definir visualizaciones para agilizar la exploracion y etiquetamiento de datos
+	* Desplegar API para que el cliente cargue tweets y sean clasificados y almacenados en una base de datos para después ser visualizados en un dashboard
 
 * Como se va a consumir por el cliente
-* Dasboard notebook aplicacion api
+	* Cargando datos a la API
+	* Visulizando el dashboard
 
 ## Personnel
 * Who are on this project:
@@ -26,7 +25,7 @@
 	* Cientificos de datos
 		* Simon Jaramillo (sijaramillogo94@gmail.com)
 		* Cristian Mendez (cristianr.mendez@gmail.com)
-	* Arquitecto de datos
+	* Arquitecto de solución
 		* Melissa de la Pava  	  
 	* Client:
 		* Simon Jaramillo
@@ -34,18 +33,19 @@
 	
 ## Metrics
 * What are the qualitative objectives? (e.g. reduce user churn)
-	* Mejorar la escucha digital de la empresa referente a las marcas
+	* Mejorar la escucha digital de la empresa referente a la marca
 * What is a quantifiable metric  (e.g. reduce the fraction of users with 4-week inactivity)
-	* Aumentar los tweets clasificados con escucha digital para la marca 
+	* Incremento periódico de tweets clasificados para la marca 
 * Quantify what improvement in the values of the metrics are useful for the customer scenario (e.g. reduce the  fraction of users with 4-week inactivity by 20%) 
-	* Clasificar 1000 tweets referentes a la marca en categorias	 
+	* Clasificar alrededor de 100 tweets en categorias periódicamente referentes a la marca 	 
 * What is the baseline (current) value of the metric? (e.g. current fraction of users with 4-week inactivity = 60%)
 	* 0 % 	 
 * How will we measure the metric? (e.g. A/B test on a specified subset for a specified period; or comparison of performance after implementation to baseline)
-	* 	 
+	* Seguimiento de cuántos tweets se clasifican en un periodo de tiempo.	 
 
 ## Plan
 * Phases (milestones), timeline, short description of what we'll do in each phase.
+
 
 ## Architecture
 * Data
