@@ -1,31 +1,21 @@
 # Data Dictionary
-
-In this document you must describe the tables, collections or files that you are using in the project. You can describe each database and provide UML diagrams for a better design description.
+A continuación se describen en el conjunto de tablas que se usarán a lo largo del proyecto 123
 
 # Database Name 1
-
-Description of the database.
-
-![UML Diagram](/file/uml/database1)
-
-## Table 1
-
-Here you must describe the table
-
-| column | type | description |
-| --- | --- | --- |
-| col1 | INT | Example column |
-
-# Database Name 2
-
-Description of the database.
+Se cuenta con una base de datos con las tablas de la escucha digital de la red de Tweeter para las diferentes marcas de la empresa
 
 ![UML Diagram](/file/uml/database1)
 
-## Table 2
+## Table 1 Pascual
 
-Here you must describe the table
+Extracción de escucha digital de la red social Tweeter para la marca Pascual desde el 03 de Julio del 2021 hasta el 01 de Octubre del 2021
 
 | column | type | description |
 | --- | --- | --- |
-| col1 | INT | Example column |
+| AUTHOR | STR | Tweet post author |
+| CONTENT | STR | Tweet content |
+| ARTICLE_URL | STR | Tweet link |
+| PUBLISH_DATE | STR | Tweet publish date |
+| FOLLOWING | INT | Author Nuumber of following |
+| FOLLOWERS | INT | Author Nuumber of followers |
+| POST_TYPE | STR | Type of post |
