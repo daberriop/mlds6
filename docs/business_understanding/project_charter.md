@@ -51,21 +51,27 @@
 ## Architecture
 * Data
   * What data do we expect? Raw data in the customer data sources (e.g. on-prem files, SQL, on-prem Hadoop etc.)
+  * Datos en texto plano con feedback de clientes en redes sociales
+  
 * Data movement from on-prem to Azure using ADF or other data movement tools (Azcopy, EventHub etc.) to move either
-  * all the data, 
-  * after some pre-aggregation on-prem,
-  * Sampled data enough for modeling 
+  * Una muestra de los datos suficiente para la generacion del modelo
 
 * What tools and data storage/analytics resources will be used in the solution e.g.,
-  * ASA for stream aggregation
-  * HDI/Hive/R/Python for feature construction, aggregation and sampling
-  * AzureML for modeling and web service operationalization
+  * Proveedor de servicios en la nueve -> **Heroku**
+  * Framework API REST -> **Flask**
+  * Lenguaje de Programacion -> **pyhton**
+  * Investigacion y generacion de modelos -> **Google colab y jupyter notebooks**
+  * Provedor de base de datos -> **Mongo DB Atlas**
+  * Dsahboard -> **PowerBI, PlotlyJs** 
+  
 * How will the score or operationalized web service(s) (RRS and/or BES) be consumed in the business workflow of the customer? If applicable, write down pseudo code for the APIs of the web service calls.
-  * How will the customer use the model results to make decisions
-  * Data movement pipeline in production
-  * Make a 1 slide diagram showing the end to end data flow and decision architecture
-    * If there is a substantial change in the customer's business workflow, make a before/after diagram showing the data flow.
+  * El usuario va a disponer de una API para realizar carga de documentos con el contenido que desea analizar
+  * El usuario va a poder visualizar el resultado del analisis en un dasboard conectado a la base de datos
+  
+  ![](https://github.com/jonatan-parra/mlds6/blob/master/docs/business_understanding/Diagrama%20Mejora%20escucha%20digital.jpeg){width='100px'}
 
 ## Communication
 * How will we keep in touch? Weekly meetings?
+	* Usar el tablero kanban de github y hacer reuniones semanales para revision y planeacion de tareas 
 * Who are the contact persons on both sides?
+	 
