@@ -14,6 +14,23 @@ Data columns (total 4 columns):
 |3|SENTIMENT|259 non-null|object| 
 
 types: object(4)
+### Exploración de 'CONTENT'
+![wordcloud pascual](https://user-images.githubusercontent.com/43830019/144765882-d2d81d8e-d1af-4df5-b817-6445cd3d05ab.png)
+
+### Palabras más frecuentes
+|#|Word|Count|
+|-|----|-----|
+|0|pascual|152| 
+|1|galletas|39| 
+|2|hora|30| 
+|3|galleta|27| 
+|4|gracias|24| 
+|5|ms|24|
+|6|detalle|24| 
+|7|panam|20| 
+|8|mara|19| 
+|9|si|19| 
+
 
 ## Target variable
 El objetivo principal es generar etiquetas para clasificar los post en clusters similares
