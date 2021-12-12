@@ -6,6 +6,7 @@ import dotenv
 import pandas as pd
 import re
 import nltk
+import pprint
 
 dotenv.load_dotenv()
 
@@ -14,7 +15,7 @@ rawdata
 
 rawdata_df = pd.read_csv(rawdata)
 
-rawdata_df.info()
+pprint.pprint(rawdata_df.info())
 
 rawdata_df.head()
 
