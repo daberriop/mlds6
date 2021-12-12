@@ -1,5 +1,6 @@
-from digitalListening.database.data_manager import *
-from digitalListening.preprocessing.dataset_preprocessing import *
+# /bin/python3
+from digitallistening.database.data_manager import *
+from digitallistening.preprocessing.dataset_preprocessing import *
 
 def main():
     #Load data

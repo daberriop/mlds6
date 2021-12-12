@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "digitalListening"
+name = "digitallistening"
 version = "0.1.0"
 description = "Project template for data science projects"
 authors = ["Juan Lara <julara@unal.edu.co>"]
