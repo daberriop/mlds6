@@ -6,7 +6,7 @@ import os
 import dotenv
 
 def get_KMeans_model(k:int) -> KMeans:
-    return KMeans(n_clusters=k)
+    return KMeans(n_clusters=k,max_iter=1000)
 
 def train_KMeans_model(data:list, k,save=True):
     

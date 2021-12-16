@@ -4,6 +4,7 @@ from digitallistening.models.model import *
 from digitallistening.database.data_manager import *
 from digitallistening.preprocessing.text_preprocessing import *
 import matplotlib.pyplot as plt
+import plotly.express as px
 
 data = load_data_from_parquet()
 clean_text = data["CONTENT_CLEAN"]
@@ -26,6 +27,8 @@ tsne = TSNE(
 
 T = tsne.fit_transform(X_w2v)
 # -
+
+
 plt.figure(figsize=(20, 15))
 plt.scatter(T[:, 0], T[:, 1], c=predictions, alpha=0.4)
 
