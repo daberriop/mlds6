@@ -14,7 +14,7 @@ def main():
     df["CONTENT_CLEAN"] = df["CONTENT"].apply(clean_text)
 
     #Save preprocessed data
-    export_data_to_parquet(df, "processed_pascual")
+    export_data_to_parquet(df)
 
 if __name__ == "__main__":
     main()

@@ -191,6 +191,8 @@ def get_w2v_repr(corpus):
 
 X_w2v = get_w2v_repr(tokenized_clean_text)
 
+X_w2v
+
 from sklearn.manifold import TSNE
 
 
@@ -226,5 +228,7 @@ clf_kmeans.fit(X_w2v)
 clusters = clf_kmeans.predict(X_w2v)
 plt.figure(figsize=(20, 15))
 plt.scatter(T[:, 0], T[:, 1], c=clusters, alpha=0.4)
+
+
 
 
