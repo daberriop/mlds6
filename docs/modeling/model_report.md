@@ -1,5 +1,10 @@
 # Reporte final del modelo
 Depues de realizar validaciones del modelo se definio realizar dos modelos. un Modelo de KMeans que nos ermite obtener los clusters de los comentarios y un segundo modelo suando T-SNE para generar una representacion de los datos
+
+Como resultado de proceso de entrenamiento se generaun archivo pickle con el modelo entrenado listo para usarse
+
+[modelo.pkl](https://github.com/jonatan-parra/mlds6/blob/621bdbac0fd579941bc744e0f0bfa7e839733fb8/digitallistening/models/model.pkl)
+[Modulo para consumir el modelo](https://github.com/jonatan-parra/mlds6/blob/621bdbac0fd579941bc744e0f0bfa7e839733fb8/digitallistening/models/model.py)
  
 ## Datos
 La fuente de datos es un archivo de texto plano ubicado en: https://drive.google.com/file/d/1fLFVfTDaV7-2QWo3qYnpPae5ff0IKxFC/view?usp=sharing que se obtiene mediante el siguiente [script](https://github.com/jonatan-parra/mlds6/blob/1c8653769ecb0855fe3e1f91dbc761a7528abf85/scripts/data_acquisition/downloadFromGDrive.py)
