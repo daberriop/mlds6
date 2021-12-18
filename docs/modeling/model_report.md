@@ -1,34 +1,63 @@
-# Final Model Report
-_Report describing the final model to be delivered - typically comprised of one or more of the models built during the life of the project_
+# Reporte final del modelo
+Depues de realizar validaciones del modelo se definio realizar dos modelos. un Modelo de KMeans que nos ermite obtener los clusters de los comentarios y un segundo modelo suando T-SNE para generar una representacion de los datos
+ 
+## Datos
+La fuente de datos es un archivo de texto plano ubicado en: https://drive.google.com/file/d/1fLFVfTDaV7-2QWo3qYnpPae5ff0IKxFC/view?usp=sharing que se obtiene mediante el siguiente [script](https://github.com/jonatan-parra/mlds6/blob/1c8653769ecb0855fe3e1f91dbc761a7528abf85/scripts/data_acquisition/downloadFromGDrive.py)
 
-## Analytic Approach
-* What is target definition
-* What are inputs (description)
-* What kind of model was built?
 
-## Solution Description
-* Simple solution architecture (Data sources, solution components, data flow)
-* What is output?
+## Caracteristicas
 
-## Data
-* Source
-* Data Schema
-* Sampling
-* Selection (dates, segments)
-* Stats (counts)
+en ambos casos la extraccion de caracteristicas se realiza con un modelo Word2Vec usando promedios 
 
-## Features
-* List of raw and derived features 
-* Importance ranking.
+### Modelo para extraccion de caracteristicas
 
-## Algorithm
-* Description or images of data flow graph
-  * if AzureML, link to:
-    * Training experiment
-    * Scoring workflow
-* What learner(s) were used?
-* Learner hyper-parameters
+WORD2VEC
 
-## Results
-* ROC/Lift charts, AUC, R^2, MAPE as appropriate
-* Performance graphs for parameters sweeps if applicable
+    feature_size = 100
+    window_context = 5
+    min_word_count = 1
+    sample = 1e-3
+    epochs = 100
+ 
+ver [Modulo de extraccion de caracteristicas](https://github.com/jonatan-parra/mlds6/blob/1c8653769ecb0855fe3e1f91dbc761a7528abf85/digitallistening/training/feature_extraction.py)
+
+## Algoritmos utilizados
+
+### Modelo para generacion de clusters
+
+K-MEANS
+
+    n_clusters=6
+    init='k-means++'
+    max_iter=1000
+
+var [Modulo de entrenamiento](https://github.com/jonatan-parra/mlds6/blob/1c8653769ecb0855fe3e1f91dbc761a7528abf85/digitallistening/training/model_training.py)
+
+### Modelo para transformacion y visualizacion de clusters
+
+en este caso a diferencia del modelo base se utilizan 3 componentes para generar una mejor visualizacion
+
+T-SNE
+
+    En este caso, se selecciona un T-SNE (T-distributed Stochastic Neighbor Embedding) ya que usa transformación no lineal para conservar relaciones entre puntos de grandes diminesionalidaes
+    n_components=3,
+        random_state=0,
+        n_iter=1000,
+        perplexity=2,
+        verbose=1
+ver [Dashboard](https://github.com/jonatan-parra/mlds6/blob/1c8653769ecb0855fe3e1f91dbc761a7528abf85/scripts/dashboard/app.py)
+
+## Resultados
+
+![word2vec and TSNE](https://user-images.githubusercontent.com/43830019/145692892-e977520a-00fa-4a25-b41a-ac636c5bb7be.png)
+
+### Resultado selección de cluster para el modelo K-MEANS
+
+![codo](https://user-images.githubusercontent.com/43830019/145693019-fbd8f434-d9d5-4003-8721-8824b5d1246c.png)
+
+
+Se selecciona el hiper parámetro K= 6 con apoyo de la gráfica
+
+### Resultado para K-MEANS
+
+![KMENAS](https://user-images.githubusercontent.com/43830019/145692959-b00cd66e-6b3c-4471-9416-1a72ddc5548a.png)
