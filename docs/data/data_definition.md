@@ -9,7 +9,7 @@
 
 * pascual.csv. La información inicial es proporcionada por el cliente. Archivos planos en formato csv compartidos via mail.
 
-![rawcolums](https://drive.google.com/file/d/1xJc0oI0tt3fbp2lqBgJGTdcKVEMDqKVp/view?usp=sharing)
+![selectedcolums](https://github.com/jonatan-parra/mlds6/blob/master/docs/data/rawdatacolums.png)
 
 
 
@@ -18,7 +18,9 @@
 | ---:| ---: | ---: | ---: |
 | Tweets pascual | [pascual.csv](link/to/dataset1/report),  | [EDA.py](https://github.com/jonatan-parra/mlds6/blob/master/scripts/eda/EDA.py) | [EDA Report](https://github.com/jonatan-parra/mlds6/blob/e6da49921826414294d8f625562f8e298246ce9b/scripts/eda/EDA.pdf)|
 
-![selectedcolums](https://drive.google.com/file/d/1LqdLwgdryjj2u95s5WH-4izrren91m87/view?usp=sharing)
+
+
+![rawcolums](https://github.com/jonatan-parra/mlds6/blob/master/docs/data/selectedcolumns.png)
 
 
 * dataset pascual. conserva las columnas ['AUTHOR', 'CONTENT', 'PUBLISH_DATE', 'SENTIMENT']
