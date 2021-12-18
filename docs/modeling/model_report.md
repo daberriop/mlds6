@@ -23,6 +23,14 @@ ver [Modulo de extraccion de caracteristicas](https://github.com/jonatan-parra/m
 
 ## Algoritmos utilizados
 
+### Selección de hiperparametros para el modelo K-MEANS
+
+![codo](https://user-images.githubusercontent.com/43830019/145693019-fbd8f434-d9d5-4003-8721-8824b5d1246c.png)
+
+
+Se selecciona el hiper parámetro K= 6 con apoyo de la gráfica
+
+
 ### Modelo para generacion de clusters
 
 K-MEANS
@@ -49,15 +57,6 @@ ver [Dashboard](https://github.com/jonatan-parra/mlds6/blob/1c8653769ecb0855fe3e
 
 ## Resultados
 
-![word2vec and TSNE](https://user-images.githubusercontent.com/43830019/145692892-e977520a-00fa-4a25-b41a-ac636c5bb7be.png)
+### Visualizacion del T-SNE en dasboard con clusters fenerados usando KMeans
 
-### Resultado selección de cluster para el modelo K-MEANS
-
-![codo](https://user-images.githubusercontent.com/43830019/145693019-fbd8f434-d9d5-4003-8721-8824b5d1246c.png)
-
-
-Se selecciona el hiper parámetro K= 6 con apoyo de la gráfica
-
-### Resultado para K-MEANS
-
-![KMENAS](https://user-images.githubusercontent.com/43830019/145692959-b00cd66e-6b3c-4471-9416-1a72ddc5548a.png)
+![KMENAS](https://github.com/jonatan-parra/mlds6/blob/master/docs/modeling/dashboard.png)
