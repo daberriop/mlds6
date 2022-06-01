@@ -33,7 +33,7 @@
 
 | Feature Set Name | Input Dataset(s)   | Feature Engineering Tools/Scripts | Link to Report |
 | ---:| ---: | ---: | ---: |
-| preprocessing | [pascual.csv](https://drive.google.com/file/d/1fLFVfTDaV7-2QWo3qYnpPae5ff0IKxFC/view?usp=sharing) | [script de preprocesamiento](https://github.com/jonatan-parra/mlds6/blob/e6da49921826414294d8f625562f8e298246ce9b/scripts/preprocessing/main.py) | |
+| preprocessing | [pascual.csv](https://drive.google.com/file/d/1fLFVfTDaV7-2QWo3qYnpPae5ff0IKxFC/view?usp=sharing) | [script de preprocesamiento](https://github.com/jonatan-parra/mlds6/blob/e6da49921826414294d8f625562f8e298246ce9b/scripts/preprocessing/main.py) Pag 4-6 | |
 
 El script de prerpocesamiento aplica la limpieza de datos originales y el rpocesamiento de texto que consite en lo siguiente:
 - remplazar caracteres latinos
